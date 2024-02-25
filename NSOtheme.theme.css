@@ -1,0 +1,368 @@
+/**
+ * @name NSO theme
+ * @author Polin
+ * @description Needy Streamer Overload inspired discord theme.
+ * @version 0.2.0
+ */
+
+ :root {
+	--pink: #f2d3f1;
+	--dark-pink: #dcbdee;
+	--darker-pink: #ee98ee;
+	--purple: #835bd9;
+	--teal: #8df6e1;
+	--light-blue: #cce4fc;
+	--dark-blue: #4c21ca;
+	--red: #e65761;
+	
+	 
+	--activity-card-background: var(--pink);
+    --android-navigation-bar-background: var(--pink);
+    --android-navigation-scrim-background: var(--pink);
+    --android-ripple: var(--pink);
+	
+	--application-subscription-end: var(--dark-pink);
+    --application-subscription-end-hsl: hsl(var(--dark-pink));
+    --application-subscription-start: var(--dark-pink);
+    --application-subscription-start-hsl: hsl(var(--dark-pink));
+	
+    --background-accent: var(--dark-pink);
+    --background-floating: var(--pink);
+    --background-mentioned: var(--light-blue);
+    --background-mentioned-hover: var(--dark-pink);
+    --background-message-automod: var(--red);
+    --background-message-automod-hover: var(--red);
+    --background-message-highlight: var(--light-blue);
+    --background-message-highlight-hover: var(--light-blue);
+    --background-message-hover: var(--light-blue);
+    --background-mobile-primary: var(--pink);
+    --background-mobile-secondary: var(--pink);
+    --background-modifier-accent: var(--pink);
+    --background-modifier-accent-2: var(--darker-pink);
+    --background-modifier-active: var(--pink);
+    --background-modifier-hover: var(--pink);
+    --background-modifier-selected: var(--pink);
+    --background-nested-floating: var(--dark-pink);
+    --background-primary: var(--pink);
+    --background-secondary: var(--dark-pink);
+    --background-secondary-alt: var(--dark-pink);
+    --background-tertiary: var(--pink);
+	
+	--button-creator-revenue-background: var(--pink);
+	
+    --button-danger-background: var(--red);
+    --button-danger-background-active: var(--red-530);
+    --button-danger-background-disabled: var(--red-430);
+    --button-danger-background-hover: var(--red-500);
+	
+    --button-outline-brand-background: var(--pink);
+    --button-outline-brand-background-active: var(--pink);
+    --button-outline-brand-background-hover: var(--pink);
+    --button-outline-brand-border: var(--pink);
+    --button-outline-brand-border-active: var(--pink);
+    --button-outline-brand-border-hover: var(--pink);
+    --button-outline-brand-text: var(--dark-blue);
+    --button-outline-brand-text-active: var(--dark-blue);
+    --button-outline-brand-text-hover: var(--dark-blue);
+	
+    --button-outline-danger-background: var(--red);
+    --button-outline-danger-background-active: var(--red-460);
+    --button-outline-danger-background-hover: var(--red-430);
+    --button-outline-danger-border: var(--red-400);
+    --button-outline-danger-border-active: var(--red-430);
+    --button-outline-danger-border-hover: var(--red-430);
+    --button-outline-danger-text: var(--dark-blue);
+    --button-outline-danger-text-active: var(--dark-blue);
+    --button-outline-danger-text-hover: var(--dark-blue);
+	
+    --button-outline-positive-background: var(--pink);
+    --button-outline-positive-background-active:  var(--dark-pink);
+    --button-outline-positive-background-hover:  var(--dark-pink);
+    --button-outline-positive-border: var(--pink);
+    --button-outline-positive-border-active: var(--dark-pink);
+    --button-outline-positive-border-hover: var(--dark-pink);
+    --button-outline-positive-text: var(--dark-blue);
+    --button-outline-positive-text-active: var(--dark-blue);
+    --button-outline-positive-text-hover: var(--dark-blue);
+	
+    --button-outline-primary-background: var(--dark-pink);
+    --button-outline-primary-background-active:var(--dark-pink);
+    --button-outline-primary-background-hover: var(--dark-pink);
+    --button-outline-primary-border: var(--dark-pink);
+    --button-outline-primary-border-active: var(--dark-pink);
+    --button-outline-primary-border-hover: var(--dark-pink);
+    --button-outline-primary-text: var(--dark-blue);
+    --button-outline-primary-text-active: var(--dark-blue);
+    --button-outline-primary-text-hover: var(--dark-blue);
+	
+    --button-positive-background:  var(--pink);
+    --button-positive-background-active: var(--dark-pink);
+    --button-positive-background-disabled: var(--pink);
+    --button-positive-background-hover: var(--dark-pink);
+	
+    --button-secondary-background: var(--pink);
+    --button-secondary-background-active: var(--dark-blue);
+    --button-secondary-background-disabled: var(--dark-blue);
+    --button-secondary-background-hover: var(--dark-blue);
+	
+	--card-gradient-bg: var(--pink);
+    --card-gradient-pressed-bg: var(dark-pink);
+    --card-primary-bg: var(--pink);
+    --card-primary-pressed-bg: var(dark-pink);
+    --card-secondary-bg: var(--pink);
+    --card-secondary-pressed-bg: var(--pink);
+	
+	--channel-icon: var(--dark-blue);
+    --channel-text-area-placeholder: var(--dark-blue);
+    --channels-default: var(--dark-blue);
+    --channeltextarea-background: var(--dark-blue);
+	
+	--chat-background: var(--light-blue);
+    --chat-border: var(--light-blue);
+	--channeltextarea-background: var(--light-blue);
+	--channel-text-area-placeholder: var(--dark-blue);
+	--channel-icon: var(--dark-blue);
+	--channels-default: var(--dark-blue);
+    --chat-input-container-background: var(--light-blue);
+	
+	--control-brand-foreground: var(--pink);
+    --control-brand-foreground-new: var(--pink);
+	
+	--deprecated-card-bg: var(--pink);
+    --deprecated-card-editable-bg: var(--light-blue);
+    --deprecated-quickswitcher-input-background: var(--light-blue);
+    --deprecated-quickswitcher-input-placeholder: var(--dark-blue);
+    --deprecated-store-bg: var(--pink);
+    --deprecated-text-input-bg: var(--dark-blue);
+    --deprecated-text-input-border: var(--dark-blue);
+    --deprecated-text-input-border-disabled: var(--dark-blue);
+    --deprecated-text-input-border-hover: var(--dark-blue);
+    --deprecated-text-input-prefix: var(--dark-blue);
+	
+	--display-banner-overflow-background: var(--teal);
+    --divider-strong: var(--teal);
+    --divider-subtle: var(--teal);
+	
+	--guild-notifications-bottom-sheet-pill-background: var(--light-blue);
+	
+	--header-muted: var(--dark-blue);
+    --header-primary: var(--dark-blue);
+    --header-secondary: var(--dark-blue);
+    --home-background: var(--dark-blue);
+    --home-card-resting-border: var(--dark-blue);
+	
+	--icon-muted: var(--dark-blue);
+    --icon-primary: var(--dark-blue);
+    --icon-secondary: var(--dark-blue);
+	
+	--info-danger-background: var(--red);
+    --info-danger-foreground: var(--dark-blue);
+    --info-danger-text: var(--dark-blue);
+    --info-help-background: var(--pink);
+    --info-help-foreground: var(--dark-blue);
+    --info-help-text: var(--dark-blue);
+    --info-positive-background: var(--pink);
+    --info-positive-foreground: var(--dark-blue);
+    --info-positive-text: var(--dark-blue);
+    --info-warning-background: var(--red);
+    --info-warning-foreground: var(--dark-blue);
+    --info-warning-text: var(--dark-blue);
+	
+	--input-placeholder-text-dark: var(--dark-blue);
+    --input-placeholder-text-dark-hsl: 216 var(--dark-blue);
+	
+	--interactive-active: var(--dark-blue);
+    --interactive-hover: var(--dark-blue);
+    --interactive-muted: var(--dark-blue);
+    --interactive-normal: var(--dark-blue);
+
+	--font-primary: "Zpix";
+	--font-display: "Zpix";
+    --font-headline: "Zpix";
+	
+	--logo-primary: var(--dark-blue);
+    --mention-background: var(--light-blue);
+    --mention-foreground: var(--dark-blue);
+    --modal-background: var(--darker-pink);
+    --modal-footer-background: var(--dark-pink);
+	
+	--profile-gradient-card-background: var(--light-blue);
+    --profile-gradient-message-input-border: var(--light-blue);
+    --profile-gradient-note-background: var(--light-blue);
+    --profile-gradient-overlay: var(--dark-blue);
+    --profile-gradient-overlay-synced-with-user-theme: var(--dark-blue);
+    --profile-gradient-profile-body-background-hover: var(--dark-blue);
+    --profile-gradient-role-pill-background: var(--light-blue);
+    --profile-gradient-role-pill-border: var(--light-blue);
+    --profile-gradient-section-box: var(--light-blue);
+	
+	
+	--redesign-activity-card-background: var(--pink);
+    --redesign-activity-card-background-pressed: var(--dark-pink);
+    --redesign-activity-card-badge-icon: var(--pink);
+    --redesign-activity-card-border: var(--dark-blue);
+    --redesign-activity-card-overflow-background: var(--pink);
+	
+    --redesign-button-danger-background: var(--red);
+    --redesign-button-danger-pressed-background: var(--red);
+    --redesign-button-danger-text: var(--dark-blue);
+	
+    --redesign-button-overlay-alpha-background: var(--pink);
+    --redesign-button-overlay-alpha-pressed-background: var(--pink);
+    --redesign-button-overlay-alpha-text: var(--dark-blue);
+    --redesign-button-overlay-background: vvar(--pink);
+    --redesign-button-overlay-pressed-background: var(--pink);
+    --redesign-button-overlay-text: var(--dark-blue);
+	
+    --redesign-button-positive-background: var(--pink);
+    --redesign-button-positive-pressed-background: var(--pink);
+    --redesign-button-positive-text: var(--dark-blue);
+	
+    --redesign-button-primary-alt-background: var(--pink);
+    --redesign-button-primary-alt-border: var(--pink);
+    --redesign-button-primary-alt-on-blurple-background: var(--pink);
+    --redesign-button-primary-alt-on-blurple-border: var(--pink);
+    --redesign-button-primary-alt-on-blurple-pressed-background: var(--pink);
+    --redesign-button-primary-alt-on-blurple-pressed-border: var(--pink);
+    --redesign-button-primary-alt-on-blurple-text: var(--dark-blue);
+    --redesign-button-primary-alt-pressed-background: var(--pink);
+    --redesign-button-primary-alt-pressed-border: var(--pink);
+    --redesign-button-primary-alt-pressed-text: var(--dark-blue);
+    --redesign-button-primary-alt-text: var(--dark-blue);
+    --redesign-button-primary-background: var(--pink);
+	
+    --redesign-button-primary-on-blurple-background:  var(--pink);
+    --redesign-button-primary-on-blurple-pressed-background:  var(--pink);
+    --redesign-button-primary-on-blurple-pressed-text:  var(--pink);
+    --redesign-button-primary-on-blurple-text: var(--dark-blue);
+    --redesign-button-primary-pressed-background: var(--pink);
+    --redesign-button-primary-text: var(--dark-blue);
+    --redesign-button-secondary-alt-background: var(--pink);
+    --redesign-button-secondary-alt-pressed-background: var(--pink);
+    --redesign-button-secondary-alt-pressed-text: var(--dark-blue);
+    --redesign-button-secondary-alt-text: var(--dark-blue);
+    --redesign-button-secondary-background: var(--pink);
+    --redesign-button-secondary-border: var(--pink);
+    --redesign-button-secondary-pressed-background: var(--pink);
+    --redesign-button-secondary-pressed-border: var(--pink);
+    --redesign-button-secondary-text: var(--dark-blue);
+	
+    --redesign-chat-input-background: var(--dark-blue);
+    --redesign-input-control-active-bg: var(--dark-blue);
+    --redesign-input-control-selected: var(--dark-blue);
+    --redesign-only-background-active: var(--pink);
+    --redesign-only-background-default: var(--pink);
+    --redesign-only-background-overlay: var(--pink);
+    --redesign-only-background-raised: var(--pink);
+    --redesign-only-background-sunken: var(--pink);
+	
+	--scrollbar-auto-scrollbar-color-thumb: var(--teal);
+    --scrollbar-auto-scrollbar-color-track: var(--light-blue);
+    --scrollbar-auto-thumb: var(--teal);
+    --scrollbar-auto-track: var(--light-blue);
+    --scrollbar-thin-thumb: var(--teal);
+	
+	--spoiler-hidden-background: var(--dark-pink);
+    --spoiler-revealed-background: var(--dark-pink);
+	
+    --status-danger: var(--red);
+    --status-danger-background: var(--red);
+    --status-danger-text: var(--dark-blue);
+	
+    --status-dnd: var(--red);
+    --status-idle: var(--yellow-300);
+    --status-offline: var(--dark-pink);
+	
+    --status-online: var(--green-360);
+    --status-positive: var(--green-360);
+	
+    --status-positive-background: var(--pink);
+    --status-positive-text: var(--dark-blue);
+    --status-speaking: var(--darker-pink);
+    --status-warning: var(--yellow-300);
+    --status-warning-background: var(--yellow-300);
+    --status-warning-text: var(--dark-blue);
+	
+	--text-brand: var(--dark-blue);
+    --text-danger: var(--red);
+    --text-link: var(--dark-blue);
+    --text-link-low-saturation: var(--dark-blue);
+    --text-low-contrast: var(--dark-blue);
+    --text-message-preview-low-sat: var(--dark-blue);
+    --text-muted: var(--dark-blue);
+    --text-muted-on-default: var(--dark-blue);
+    --text-normal: var(--dark-blue);
+    --text-positive: var(--dark-blue);
+    --text-primary: var(--dark-blue);
+    --text-secondary: var(--dark-blue);
+    --text-warning: var(--dark-blue);
+	
+    --textbox-markdown-syntax: var(--dark-blue);
+	
+    --user-profile-header-overflow-background: var(--light-blue);
+	
+	--focus-primary: var(--dark-pink);
+    --info-box-background: var(--pink);
+    --theme-locked-blur-fallback: var(--pink);
+    --voice-video-tile-blur-fallback: var(--dark-blue);
+    --voice-video-video-tile-blur-fallback: var(--pink);
+
+	--youtube: #f6018b;
+    --youtube-hsl: #f6018b;
+	
+	--shadow-border: var(--dark-pink);
+    --shadow-border-filter: var(--dark-pink);
+    --shadow-button-overlay: var(--dark-pink);
+    --shadow-button-overlay-filter: var(--dark-pink);
+    --shadow-high: var(--dark-pink);
+    --shadow-high-filter: var(--dark-pink);
+    --shadow-ledge: var(--dark-pink);
+    --shadow-ledge-filter: var(--dark-pink);
+    --shadow-low: var(--dark-pink);
+    --shadow-low-filter: var(--dark-pink);
+    --shadow-low-active: var(--dark-pink);
+    --shadow-low-active-filter: var(--dark-pink);
+    --shadow-low-hover: var(--dark-pink);
+    --shadow-low-hover-filter: var(--dark-pink);
+    --shadow-medium: var(--dark-pink);
+    --shadow-medium-filter: var(--dark-pink);
+    --shadow-mobile-navigator-x: var(--dark-pink);
+    --shadow-mobile-navigator-x-filter: var(--dark-pink);
+    --shadow-top-high: var(--dark-pink);
+    --shadow-top-high-filter: var(--dark-pink);
+    --shadow-top-ledge: var(--dark-pink);
+    --shadow-top-ledge-filter: var(--dark-pink);
+    --shadow-top-low: var(--dark-pink);
+    --shadow-top-low-filter: var(--dark-pink);
+	
+	--guild-header-text-shadow: var(--dark-pink);
+    --elevation-stroke: var(--dark-pink);
+    --elevation-low: var(--dark-pink);
+    --elevation-medium: var(--dark-pink);
+    --elevation-high: var(--dark-pink);
+
+}
+
+.wrapper_d281dd path {
+
+display: none;
+
+}
+
+.wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c, .wrapper_d281dd .childWrapper__01b9c {
+
+background: url('https://github.com/ThePuccaPl/NSO-discord-theme/blob/main/discord.png?raw=true') center/cover no-repeat;
+
+/*Change the icon size*/
+
+background-size: 80%;
+
+min-width: 60px;
+
+min-height: 60px;
+
+}
+
+
+
+
