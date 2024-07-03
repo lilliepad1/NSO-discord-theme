@@ -27,6 +27,7 @@
     --application-subscription-start-hsl: hsl(var(--dark-pink));
 	
     --background-accent: var(--dark-pink);
+    --background-color: var(--pink);
     --background-floating: var(--pink);
     --background-mentioned: var(--light-blue);
     --background-mentioned-hover: var(--dark-pink);
